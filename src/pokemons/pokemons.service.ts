@@ -3,8 +3,8 @@ import { Injectable } from '@nestjs/common';
 import { CreatePokemonDto } from './dto/create-pokemon.dto';
 import { UpdatePokemonDto } from './dto/update-pokemon.dto';
 import { PaginationDto } from '../shared/dtos/pagination.dto';
-import { PokeApiResponse } from './interfaces/pokemons.response';
 import { Pokemon } from './entities/pokemon.entity';
+import { PokeApiResponse } from './interfaces/pokemons.response';
 import { PokeApiPokemonReponse } from './interfaces/pokeapi-pokemon.response';
 
 @Injectable()
